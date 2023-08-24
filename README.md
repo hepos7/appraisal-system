@@ -1,6 +1,8 @@
 
 ## Laravel Appraisal app;
 
+> **_NOTE:_**  to appraise employee in any month u can change month number in resources\views\appraisal\create.blade.php in line 54 and 56
+
 
 ## Project Setup
 
@@ -8,6 +10,14 @@
 
 - 2-  write to create vendor folder.
 > composer update;
+ 
+- 3-  Copy .env.example to .env:
+> copy .env.example .env
+
+- 4-  Generate a key:
+> php artisan key:generate
+
+- 5-  Update DB name in your env file:
 
 - 3- to get database tables write 
 > php artisan migrate;
