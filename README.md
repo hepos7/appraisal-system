@@ -12,7 +12,7 @@
 - 3- to get database tables write 
 > php artisan migrate;
 
-- 4- to data 
+- 4- to get data 
 > php artisan db:seed 
 
 - 5- run the project
